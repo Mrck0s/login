@@ -30,10 +30,10 @@ body{
     padding-top: 15%;
     color: rgb(124, 93, 55);
 }
-.user{
+.username-container{
     padding-top:10%;
 }
-.password{
+.password-container{
     padding-top: 5%;
 }
 .submit{
@@ -50,16 +50,12 @@ body{
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.olvido a{
+a{
     color: rgb(124, 93, 55);
 }
 .registro{
 display: block;
 padding-top: 5%;
-}
-.crear{
-
-    color: rgb(124, 93, 55);
 }
 input{
     padding: 2.5%;
@@ -69,4 +65,5 @@ input{
 }
 input:focus{
     outline: none;
+    border: solid 2px rgb(124, 93, 55);
 }
